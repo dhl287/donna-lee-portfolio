@@ -164,12 +164,13 @@ p {
     height: 150px;
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
-    color: red;
+    color: #ffffff;
     font-size: 30px;
     display: flex;
     align-items: flex-end;
     background-image: url("/assets/images/spring-flower-collection.jpeg");
-    
+    border: solid;
+    border-color: #ffffff;
 }
 
 .top {
@@ -183,7 +184,7 @@ p {
     padding: 50px;
     height: 175px;
     font-family: 'Gill Sans', sans-serif;
-    color: #9f2c2c;
+    color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -346,5 +347,16 @@ footer h2 {
 
 [class*="col-"] {
     width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body,
+    nav {
+      flex-direction: column;
+    }
+    aside {
+      order: 2;
+    }
+
   }
   
