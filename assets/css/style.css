@@ -53,7 +53,6 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -160,6 +159,10 @@ p {
     justify-content: space-evenly;
 }
 
+.work-right a {
+    color: rgb(56, 56, 112);
+}
+
 #java-work-one {
     margin-top: -20px;
     margin-bottom: 20px;
@@ -168,9 +171,10 @@ p {
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     background-image: url("/assets/images/spring-flower-collection.jpeg");
     border: solid;
     border-color: #ffffff;
@@ -195,6 +199,10 @@ p {
    
 }
 
+.work-two-sections a {
+    color: rgb(56, 56, 112);
+}
+
 #html-work {
     margin-top: -20px;
     margin-bottom: 20px;
@@ -204,10 +212,11 @@ p {
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    justify-content: center;
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
@@ -223,10 +232,11 @@ p {
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-wrap: flex;
     align-items: flex-end;
+    justify-content: center;
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
@@ -251,19 +261,24 @@ p {
    
 }
 
+.work-three-sections a {
+    color: rgb(56, 56, 112);
+}
+
 #java-work-two {
     margin-top: -20px;
     margin-bottom: 20px;
-    margin-right: 5px;
+    margin-left: 5px;
     padding: 50px;
     height: 150px;
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 22px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: flex;
     align-items: flex-end;
+    justify-content: center;
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
@@ -280,10 +295,11 @@ p {
     width: 100%;
     font-family: 'Gill Sans', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 22px;
     display: flex;
     flex-wrap: flex;
     align-items: flex-end;
+    justify-content: center;
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
@@ -346,6 +362,7 @@ footer {
 
 footer h2 {
     font-size: 20px;
+    color: #ffffff;
 }
 
 [class*="col-"] {
@@ -356,6 +373,7 @@ footer h2 {
     body,
     nav {
       flex-direction: column;
+      flex: flex-box;
     }
     aside {
       order: 2;
