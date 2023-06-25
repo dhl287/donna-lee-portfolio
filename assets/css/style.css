@@ -131,8 +131,8 @@ p {
 #work {
     margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-bottom: 30px;
+    padding: 60px;
     height: 600px;
     width: 370px;
     font-family: 'Gill Sans', sans-serif;
@@ -367,18 +367,29 @@ footer h2 {
   }
   
 @media screen and (max-width: 768px) {
+    .work-right {
+        width: 100%;
+    }
     .work-two-sections {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        width: 100%;
+    }
+    .work-three-sections {
+        width: 100%;
+    }
+    #about-me {
+        width: 100%;
     }
     #about-me-right {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        width: 100%;
     }
+    #contact {
+        width: 100%;
+    }
+    #contact-right {
+        width: 100%;
+    }
+}
 
-  }
 
 
   
