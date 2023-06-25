@@ -96,7 +96,7 @@ p {
     margin-bottom: 20px;
     margin-right: 30px;
     padding: 60px;
-    height: 200px;
+    height: 300px;
     font-family: 'Gill Sans', sans-serif;
     font-size: 30px;
     color: #ffffff;
@@ -245,8 +245,8 @@ p {
 
 .row-two {
     width: 50%;
-    display: flex;
-
+    display: block;
+    
 }
 
 .work-three-sections {
@@ -372,6 +372,12 @@ footer h2 {
         flex-direction: column;
         flex-wrap: wrap;
     }
+    #about-me-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
   }
 
 
