@@ -108,7 +108,7 @@ p {
     border-top: none;
     border-bottom: none; 
     display: flex;
-    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 #about-me-right p {
@@ -145,6 +145,8 @@ p {
     border-left: none;
     border-top: none;
     border-bottom: none; 
+    display: flex;
+    justify-content: flex-end
 }
 
 .work-right {
@@ -161,6 +163,8 @@ p {
 
 .work-right a {
     color: rgb(56, 56, 112);
+    font-size: 25px;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 #java-work-one {
@@ -169,9 +173,6 @@ p {
     padding: 50px;
     height: 150px;
     width: 100%;
-    font-family: 'Gill Sans', sans-serif;
-    color: #ffffff;
-    font-size: 25px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -201,6 +202,8 @@ p {
 
 .work-two-sections a {
     color: rgb(56, 56, 112);
+    font-size: 25px;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 #html-work {
@@ -210,9 +213,6 @@ p {
     padding: 50px;
     height: 150px;
     width: 100%;
-    font-family: 'Gill Sans', sans-serif;
-    color: #ffffff;
-    font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -243,7 +243,7 @@ p {
 
 }
 
-.random {
+.row-two {
     width: 50%;
     display: flex;
 
@@ -263,18 +263,17 @@ p {
 
 .work-three-sections a {
     color: rgb(56, 56, 112);
+    font-size: 20px;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 #java-work-two {
     margin-top: -20px;
     margin-bottom: 20px;
-    margin-left: 5px;
+    margin-right: 5px;
     padding: 50px;
     height: 150px;
     width: 100%;
-    font-family: 'Gill Sans', sans-serif;
-    color: #ffffff;
-    font-size: 22px;
     display: flex;
     flex-wrap: flex;
     align-items: flex-end;
@@ -283,7 +282,6 @@ p {
     border: solid;
     border-color: #ffffff;
     background-image: url("/assets/images/bed-of-flowers.jpeg");
-    
 }
 
 #java-work-three {
@@ -306,10 +304,9 @@ p {
     background-image: url("/assets/images/daisy-flowers.jpeg");
 }
 
-.diff {
+.row-three {
     width: 50%;
     display: flex;
-
 }
 
 .contact-section {
@@ -336,7 +333,7 @@ p {
     border-top: none;
     border-bottom: none; 
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #contact-right {
@@ -369,15 +366,13 @@ footer h2 {
     width: 100%;
   }
   
-  @media screen and (max-width: 768px) {
-    body,
-    nav {
-      flex-direction: column;
-      flex: flex-box;
+@media screen and (max-width: 768px) {
+    .work-two-sections {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    aside {
-      order: 2;
-    }
-
   }
+
+
   
