@@ -16,10 +16,13 @@ The About Me section summarizes my life and experiences to potential employers.
 
 The Work section showcases my work, and the first work experience (application) is larger in size than the others. When clicking the images of the applications, you will be taken to placeholder images that will be used temporarily until I build my experience, and future completed projects will be able to replace the placeholder images. 
 
-The Contact section allows potential employers to contact me via email and phone as well as review my GitHub and LinkedIn profiles. 
+The Contact section allows potential employers to contact me via email and phone as well as review my GitHub and LinkedIn profiles. When clicking GitHub and LinkedIn in the Contact section, you will be taken to the appropriate websites.
 
 ## Credits
 
+The GitHub Professional README Guide was used to create the README template.
+
+Sources: Need to add, but how?
 
 ## License
 
