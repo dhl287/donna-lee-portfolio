@@ -361,34 +361,43 @@ footer h2 {
     font-size: 20px;
     color: #ffffff;
 }
-
-[class*="col-"] {
-    width: 100%;
-  }
   
 @media screen and (max-width: 768px) {
-    .work-right {
-        width: 100%;
-    }
-    .work-two-sections {
-        width: 100%;
-    }
-    .work-three-sections {
-        width: 100%;
-    }
-    #about-me {
-        width: 100%;
-    }
-    #about-me-right {
-        width: 100%;
-    }
+    #work, 
+    #about-me, 
     #contact {
         width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        border-right: none;
+        border-top: none;
+        border-left: none;
     }
+    .work-right,
+    .work-two-sections,
+    .work-three-sections {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-me-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
     #contact-right {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 }
+
 
 
 
