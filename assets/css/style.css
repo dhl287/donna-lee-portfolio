@@ -176,6 +176,7 @@ p {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-color: rgb(97, 144, 148);
     background-image: url("/assets/images/spring-flower-collection.jpg");
     border: solid;
     border-color: #ffffff;
