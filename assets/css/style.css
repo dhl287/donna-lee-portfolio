@@ -176,7 +176,7 @@ p {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-image: url("/assets/images/spring-flower-collection.jpeg");
+    background-image: url("/assets/images/spring-flower-collection.jpg");
     border: solid;
     border-color: #ffffff;
 }
@@ -281,7 +281,7 @@ p {
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
-    background-image: url("/assets/images/bed-of-flowers.jpeg");
+    background-image: url("/assets/images/bed-of-flowers.jpg");
 }
 
 #java-work-three {
@@ -301,7 +301,7 @@ p {
     background-color: rgb(97, 144, 148);
     border: solid;
     border-color: #ffffff;
-    background-image: url("/assets/images/daisy-flowers.jpeg");
+    background-image: url("/assets/images/daisy-flowers.jpg");
 }
 
 .row-three {
